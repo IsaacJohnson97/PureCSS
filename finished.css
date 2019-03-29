@@ -1,0 +1,343 @@
+body{
+    
+  }
+  
+  .box{
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 8%;
+    width: 600px;
+    height: 420px;
+    background: none;
+  
+  }
+  
+  .head{
+    position: absolute;
+    top:190.5%;
+    left: 16%;
+    width: 76%;
+    height: 67%;
+    background: #5499C7;
+    border-radius: 50%;
+  }
+  .footleft{
+    position: absolute;
+    top:280%;
+    left: -15%;
+    width: 60%;
+    height: 80%;
+    background:#FCF3CF;
+    border-radius: 50%;
+    z-index: 3;
+  }
+  .footright{
+    position: absolute;
+    top:280%;
+    left: 65%;
+    width: 60%;
+    height: 80%;
+    background: #FCF3CF;
+    border-radius: 50%;
+    z-index: 3;
+  }
+  .footrightinner{
+    position: absolute;
+    top:300%;
+    left: 10%;
+    width: 30%;
+    height: 50%;
+    background: #F0B27A;
+    border-radius: 50%;
+    z-index: 3;
+  }
+  .footleftinner{
+    position: absolute;
+    top:300%;
+    left: 70%;
+    width: 30%;
+    height: 50%;
+    background: #F0B27A;
+    border-radius: 50%;
+    z-index: 3;
+  }
+  .nail1-right{
+    position: absolute;
+    width: 10%;
+    height: 25%;
+    right: 111%;
+    top: 280%;
+    background: white;
+    z-index: 3;
+    -webkit-transform:rotate(310deg);
+    -webkit-clip-path: polygon(45% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(45% 0%, 0% 100%, 100% 100%);
+  }
+  .nail2-right{
+    position: absolute;
+    width: 10%;
+    height: 25%;
+    right: 117%;
+    top: 310%;
+    background: white;
+    z-index: 3;
+    -webkit-transform:rotate(260deg);
+    -webkit-clip-path: polygon(45% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(45% 0%, 0% 100%, 100% 100%);
+  }
+  .nail3-right{
+    position: absolute;
+    width: 10%;
+    height: 25%;
+    right: 95%;
+    top: 262%;
+    background: white;
+    z-index: 3;
+    -webkit-transform:rotate(330deg);
+    -webkit-clip-path: polygon(45% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(45% 0%, 0% 100%, 100% 100%);
+  }
+  
+  .nail1-left{
+    position: absolute;
+    width: 10%;
+    height: 25%;
+    right: -37%;
+    top: 310%;
+    background: white;
+    z-index: 3;
+    -webkit-transform:rotate(90deg);
+    -webkit-clip-path: polygon(45% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(45% 0%, 0% 100%, 100% 100%);
+  }
+  .nail2-left{
+    position: absolute;
+    width: 10%;
+    height: 25%;
+    right: -31%;
+    top: 280%;
+    background: white;
+    z-index: 3;
+    -webkit-transform:rotate(58deg);
+    -webkit-clip-path: polygon(45% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(45% 0%, 0% 100%, 100% 100%);
+  }
+  .nail3-left{
+    position: absolute;
+    width: 10%;
+    height: 25%;
+    right: -17%;
+    top: 262%;
+    background: white;
+    z-index: 3;
+    -webkit-transform:rotate(29deg);
+    -webkit-clip-path: polygon(45% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(45% 0%, 0% 100%, 100% 100%);
+  }
+  .tooth1{
+    position: absolute;
+    width: 5%;
+    height: 18%;
+    right: 56%;
+    top: 55%;
+    background: white;
+    z-index: 3;
+    -webkit-transform:rotate(0deg);
+    -webkit-clip-path: polygon(45% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(45% 0%, 0% 100%, 100% 100%);
+  }
+  .tooth2{
+    position: absolute;
+    width: 5%;
+    height: 18%;
+    right: 40%;
+    top: 55%;
+    background: white;
+    z-index: 3;
+    -webkit-transform:rotate(0deg);
+    -webkit-clip-path: polygon(45% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(45% 0%, 0% 100%, 100% 100%);
+  }
+  
+
+  .head-copy{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #5499C7;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  
+ .ear-left{
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    left: 6%;
+    top: -15%;
+    background:#5499C7;
+    z-index: 1;
+    -webkit-clip-path: polygon(45% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(45% 0%, 0% 100%, 100% 100%);
+  } 
+  .ear-right{
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    right: 6%;
+    top: -15%;
+    background:#5499C7;
+    z-index: 1;
+    -webkit-clip-path: polygon(45% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(45% 0%, 0% 100%, 100% 100%);
+  }
+  
+  
+  .face-inner{
+    position: absolute;
+    background: #FCF3CF;
+    width: 80%;
+    height: 90%;
+    top: 10%;
+    left: 10%;
+    border-radius: 50%;
+    z-index: 3;
+  }
+ 
+
+  .pupil{
+    position: absolute;
+    top:35%;
+    left: 10%;
+    width: 30%;
+    height: 1%;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+  }
+  .pupil1{
+    position: absolute;
+    top:35%;
+    left: 60%;
+    width: 30%;
+    height: 1%;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+    z-index: 2;
+  }
+
+
+  .head-tip{
+    position: absolute;
+    top: 9%;
+    left: 25%;
+    width: 45%;
+      height: 30%;
+    background:#5499C7;
+    background:;
+      z-index: 3;
+      -webkit-transform:rotate(180deg);
+      -webkit-clip-path: polygon(-50% 0%, 0%, 100%, 100% 100%);
+  clip-path: polygon(50% 50%, 0% 100%, 100% 100%);
+  }
+  
+  
+  .mouth{
+    position: absolute;
+    top:70%;
+    left: 35%;
+    width: 30%;
+    height: 1%;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+    z-index: 2;
+  }
+  
+  
+
+  .body{
+    position: absolute;
+    top:82%;
+    left: -44%;
+    width: 184%;
+    height: 276%;
+    background: #5499C7;
+    border-radius: 50%;
+    z-index: 3;
+  }
+
+  .bodyinner{
+    position: absolute;
+    top:100%;
+    left: -25%;
+    width: 150%;
+    height: 150%;
+    background: #FCF3CF;
+    border-radius: 50%;
+    z-index: 3;
+  }
+  .arm1{
+    position: absolute;
+    top:100%;
+    left: -52%;
+    width: 50%;
+    height: 200%;
+    background: #5499C7;
+    border-radius: 50%;
+    -webkit-transform:rotate(35deg);
+    z-index: 1;
+  }
+  .arm2{
+    position: absolute;
+    top:100%;
+    left: 97%;
+    width: 50%;
+    height: 200%;
+    background: #5499C7;
+    border-radius: 50%;
+    -webkit-transform:rotate(150deg);
+    z-index: 1;
+
+  }
+  
+  @media all and (max-width: 600px) {
+    .box{
+      position: relative;
+      margin: auto;
+      display: block;
+      margin-top: 2%;
+      width: 400px;
+      height: 280px;
+      background: none;
+  
+    }
+  }
+  .button1 {
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    width: 100px;
+    height: 30px;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color: white;
+    text-align:center;
+    transition: all 0.2s;
+    
+    }
+.button1:hover{
+    color:black;
+    background-color:rgb(238, 225, 39);
+    }
+    @media all and (max-width:30em){
+
+
+.button1{
+    display:block;
+    margin:0.4em auto;
+     }
+  };
